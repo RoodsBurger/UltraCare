@@ -51,7 +51,9 @@ def connection():
 
 
 while True:
-
-    connection_thread = threading.Thread(target=connection, args=())
-    connection_thread.start()
-    connection_thread.join()
+    try:
+        connection_thread = threading.Thread(target=connection, args=())
+        connection_thread.start()
+        connection_thread.join()
+    except IOError:
+        pass
