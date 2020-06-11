@@ -1,0 +1,32 @@
+{
+    "device": "ssnGW",
+    "subDevice": "inputDev2",
+    "hostLB": "mqtt://lcd_test",
+    "hostRB": "mqtt://groupwork-smart.com",
+    "optionsLB": {
+        "username": "gwsmart",
+        "password": "wonderwomanblueeyes"
+    },
+    "optionsRB": {
+        "port": "8883",
+        "protocol": "ssl",
+        "rejectUnauthorized": "true",
+        "username": "gwsmart",
+        "password": "wonderwomanblueeyes"
+    },
+    "unitID": {
+        "customer": "ecalc",
+        "country": "br",
+        "city": "sp",
+        "plant": "a",
+        "machine": "tst",
+        "MQTTname1": "inputDev2",
+        "MQTTname2": "inputDev2"
+    },
+    "clients": {
+        "device1": "LCD_test",
+        "device2": "inputDev2",
+        "device3": "",
+        "device4": "testing"
+    }
+}

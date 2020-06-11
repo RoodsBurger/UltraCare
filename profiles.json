@@ -1,0 +1,253 @@
+{
+    "profiles": [{
+        "profile": {
+            "active": true,
+            "id": 11,
+            "group": "UTI",
+            "name": "UTI ADULTO"
+        },
+        "roomData": {
+            "area": 20,
+            "width": 4,
+            "length": 5,
+            "beds": 1,
+            "toilet": true,
+            "sofa": true
+        },
+        "target": {
+            "organism": "staphylococus aureus",
+            "90PercentDose": 26,
+            "inactivationRate": 99.99,
+            "cycleTimeSecs": 600
+        },
+        "devices": [{
+            "id": 98765,
+            "master": true,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 1,
+            "startAngle": 5,
+            "endAngle": 250,
+            "sweeps": 2
+        }, {
+            "id": 98764,
+            "master": false,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 2,
+            "startAngle": 10,
+            "endAngle": 260,
+            "sweeps": 2
+        }, {
+            "id": 98763,
+            "master": false,
+            "type": "sc",
+            "room": "toilet",
+            "floorRef": 3,
+            "startAngle": 0,
+            "endAngle": 0,
+            "sweeps": 0
+        }]
+
+    }, {
+        "profile": {
+            "active": false,
+            "id": 12,
+            "group": "UTI",
+            "name": "UTI PEDIATRICA"
+        },
+        "roomData": {
+            "area": 16,
+            "width": 4,
+            "length": 4,
+            "beds": 1,
+            "toilet": true,
+            "sofa": true
+        },
+        "target": {
+            "organism": "staphylococus aureus",
+            "90PercentDose": 26,
+            "inactivationRate": 99.99,
+            "cycleTimeSecs": 80
+        },
+        "devices": [{
+            "id": 99765,
+            "master": true,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 1,
+            "startAngle": 25,
+            "endAngle": 260,
+            "sweeps": 2
+        }, {
+            "id": 99764,
+            "master": false,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 2,
+            "startAngle": 10,
+            "endAngle": 320,
+            "sweeps": 2
+        }, {
+            "id": 99763,
+            "master": false,
+            "type": "sc",
+            "room": "toilet",
+            "floorRef": 3,
+            "startAngle": 0,
+            "endAngle": 0,
+            "sweeps": 0
+        }]
+
+    }, {
+        "profile": {
+            "active": false,
+            "id": 12,
+            "group": "EMERGENCIA",
+            "name": "EMERGENCIA ADULTO"
+        },
+        "roomData": {
+            "area": 16,
+            "width": 4,
+            "length": 4,
+            "beds": 1,
+            "toilet": true,
+            "sofa": true
+        },
+        "target": {
+            "organism": "staphylococus aureus",
+            "90PercentDose": 26,
+            "inactivationRate": 99.99,
+            "cycleTimeSecs": 80
+        },
+        "devices": [{
+            "id": 99765,
+            "master": true,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 1,
+            "startAngle": 25,
+            "endAngle": 260,
+            "sweeps": 2
+        }, {
+            "id": 99764,
+            "master": false,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 2,
+            "startAngle": 10,
+            "endAngle": 320,
+            "sweeps": 2
+        }, {
+            "id": 99763,
+            "master": false,
+            "type": "sc",
+            "room": "toilet",
+            "floorRef": 3,
+            "startAngle": 0,
+            "endAngle": 0,
+            "sweeps": 0
+        }]
+
+    }, {
+        "profile": {
+            "active": false,
+            "id": 12,
+            "group": "EMERGENCIA",
+            "name": "EMERGENCIA PEDIATRICA"
+        },
+        "roomData": {
+            "area": 16,
+            "width": 4,
+            "length": 4,
+            "beds": 1,
+            "toilet": true,
+            "sofa": true
+        },
+        "target": {
+            "organism": "staphylococus aureus",
+            "90PercentDose": 26,
+            "inactivationRate": 99.99,
+            "cycleTimeSecs": 80
+        },
+        "devices": [{
+            "id": 99765,
+            "master": true,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 1,
+            "startAngle": 25,
+            "endAngle": 260,
+            "sweeps": 2
+        }, {
+            "id": 99764,
+            "master": false,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 2,
+            "startAngle": 10,
+            "endAngle": 320,
+            "sweeps": 2
+        }, {
+            "id": 99763,
+            "master": false,
+            "type": "sc",
+            "room": "toilet",
+            "floorRef": 3,
+            "startAngle": 0,
+            "endAngle": 0,
+            "sweeps": 0
+        }]
+
+    }, {
+        "profile": {
+            "active": false,
+            "id": 12,
+            "group": "CIRURGIA",
+            "name": "CIRURGIA BLOCO 1"
+        },
+        "roomData": {
+            "area": 16,
+            "width": 4,
+            "length": 4,
+            "beds": 1,
+            "toilet": true,
+            "sofa": true
+        },
+        "target": {
+            "organism": "staphylococus aureus",
+            "90PercentDose": 26,
+            "inactivationRate": 99.99,
+            "cycleTimeSecs": 90
+        },
+        "devices": [{
+            "id": 99765,
+            "master": true,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 1,
+            "startAngle": 25,
+            "endAngle": 260,
+            "sweeps": 2
+        }, {
+            "id": 99764,
+            "master": false,
+            "type": "uc",
+            "room": "bed",
+            "floorRef": 2,
+            "startAngle": 10,
+            "endAngle": 320,
+            "sweeps": 2
+        }, {
+            "id": 99763,
+            "master": false,
+            "type": "sc",
+            "room": "toilet",
+            "floorRef": 3,
+            "startAngle": 0,
+            "endAngle": 0,
+            "sweeps": 0
+        }]
+
+    }]
+}
